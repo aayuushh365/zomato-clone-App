@@ -131,6 +131,11 @@ header {
   cursor: pointer;
   background: white;
   border: 1px solid rgb(236, 236, 236);
+  transition: 0.5s all ease;
+}
+.section-1 .section-1-item:hover {
+  transform: scale(1.1);
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 .section-1 .section-1-item img {
@@ -173,13 +178,28 @@ header {
   width: 100%;
   max-width: 30%;
   margin-bottom: 2rem;
-}
-
-.section-2 .section-2-container .section-2-items .section-2-item {
-  border : 1px solid black;
+  border: 1.6px solid rgb(236, 236, 230);
   padding: 5px;
   border-radius: 10px;
   background-color: white;
+  cursor: pointer;
 }
 
+.section-2 .section-2-container .section-2-items .section-2-item p:first-child {
+  padding-left: 10px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
 
+.section-2 .section-2-container .section-2-items .section-2-item p:last-child {
+  font-size: 1rem;
+  font-weight: 300;
+  color: black;
+  padding: 5px;
+  margin: 5px;
+}
+
+.section-2 .section-2-container .section-2-items .section-2-item:hover {
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
